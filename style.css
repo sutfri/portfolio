@@ -1,0 +1,130 @@
+/*red- #ED1B2E*/
+
+html {
+	scroll-behavior: smooth;
+/*    overflow-y: hidden;*/
+}
+
+body {
+	background-color: #ED1B2E;
+	scroll-behavior: smooth;
+}
+
+#container-main {
+    margin: 3em;
+    font-family: helvetica;
+    color: white;
+/*    border: solid #FFFFFF 1px;*/
+    display: flex;
+    flex-direction: row;
+/*    align-items: flex-start;*/
+    text-align: left;
+    height: 88vh;
+    gap: 1em;
+    flex-wrap: wrap;
+    transition: transform 0.3s ease;
+    justify-content: space-between;
+}
+
+#center {
+    display: flex;
+    justify-content: center;  
+    align-items: center;    
+}
+
+#container-about {
+/*	border: solid #FFFFFF 1px;*/
+	display: flex;
+	color: white;
+	font-size: 3em;
+	width: 40vw;
+    align-self: flex-start;
+    justify-self: flex-end;
+/*    text-align: right;*/
+/*    position: relative;*/
+}
+
+#sutton {
+    font-size: 17em;
+    display: flex;
+/*    position: fixed;
+    top: 0.2;
+    left: 0.2;*/
+/*    border: solid #FFFFFF 1px;*/
+    text-decoration: none;
+    color: white;
+/*    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: white;*/
+    background-color: transparent;
+    transition: transform 0.5s ease;
+}
+
+/*.prev {
+    width: 100%;
+    border-radius: 15px;
+}*/
+
+#sutton:hover {
+    color: black;
+    transform: translateY(30vh);
+    transition: transform 0.3s ease;
+/*    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: white;*/
+}
+
+#fritz {
+    font-size: 17em;
+    display: flex;
+/*    position: fixed;
+    top: 0.2;
+    left: 0.2;*/
+/*    border: solid #FFFFFF 1px;*/
+    text-decoration: none;
+    color: white;
+/*    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: white;*/
+    background-color: transparent;
+    transition: transform 0.5s ease;
+}
+
+/*.prev {
+    width: 100%;
+    border-radius: 15px;
+}*/
+
+#fritz:hover {
+    color: black;
+    transform: translateY(-30vh);
+    transition: transform 0.3s ease;
+/*    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: white;*/
+}
+
+#container-list {
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    font-size: 3em;
+    display: flex;
+/*    margin-left: auto;*/
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.5em;
+    transition: transform 0.3s ease;
+    width: 40vw;
+/*    border: solid #FFFFFF 1px;*/
+}
+
+.link-list {
+	text-decoration: none;
+    color: black;
+    padding: 0.1em;
+    transition: transform 0.3s ease;
+/*    border: solid #FFFFFF 1px;*/
+}
+
+/*.link-list:hover {
+	color: white;
+	background-color: black;
+	border-radius: 15px;
+}*/
