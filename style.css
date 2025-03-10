@@ -28,8 +28,9 @@ body {
 
 #center {
     display: flex;
-    justify-content: center;  
-    align-items: center;    
+    justify-content: flex-start;  
+    align-items: flex-start; 
+    flex-wrap: wrap; 
 }
 
 #container-about {
@@ -45,7 +46,7 @@ body {
 }
 
 #sutton {
-    font-size: 17em;
+    font-size: 14vw;
     display: flex;
 /*    position: fixed;
     top: 0.2;
@@ -73,7 +74,7 @@ body {
 }
 
 #fritz {
-    font-size: 17em;
+    font-size: 14vw;
     display: flex;
 /*    position: fixed;
     top: 0.2;
@@ -94,7 +95,7 @@ body {
 
 #fritz:hover {
     color: black;
-    transform: translateY(-30vh);
+    transform: translateY(30vh);
     transition: transform 0.3s ease;
 /*    -webkit-text-stroke-width: 4px;
     -webkit-text-stroke-color: white;*/
