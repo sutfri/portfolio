@@ -17,16 +17,13 @@ body {
     transition: transform 0.3s ease;
     justify-content: space-between;
     gap: 0;
-    height: 100vh;
 }
 
 #container-top {
-/*    width: 70vw;*/
     font-size: 16vw;
     display: flex;
     flex-direction: row;
     height: fit-content;
-/*    justify-content: space-between;*/
 }
 
 #intro {
@@ -34,14 +31,11 @@ body {
     display: flex;
     align-self: flex-end;
     justify-self: flex-end;
-/*    width: 30em;*/
-/*    border: solid black 1px;*/
 }
 
 #container-bottom {
     width: 100vw;
     font-size: 3vw;
-/*    justify-self: flex-end;*/
     display: flex;
     align-self: flex-end;
     text-align: right;
@@ -52,6 +46,7 @@ body {
 #container-nav {
     display: flex;
     align-items: flex-end;
+/*    justify-self: flex-start;*/
     justify-content: space-between;
     flex-direction: row;
     gap: 1vw;
