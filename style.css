@@ -6,7 +6,7 @@ html {
 }
 
 body {
-	background-color: #ED1B2E;
+	background-color: #A50021;
 	scroll-behavior: smooth;
 }
 
@@ -56,7 +56,7 @@ body {
 }
 
 #sutton {
-    font-size: 14vw;
+    font-size: 20em;
     display: flex;
 /*    position: fixed;
     top: 0.2;
@@ -84,7 +84,7 @@ body {
 }
 
 #fritz {
-    font-size: 3vw;
+    font-size: 5em;
     display: flex;
 /*    position: fixed;
     top: 0.2;
