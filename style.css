@@ -12,25 +12,35 @@ body {
 
 #container-main {
     margin: 3em;
-    font-family: helvetica;
+    font-family: Helvetica;
+/*    font-weight: lighter;*/
     color: white;
 /*    border: solid #FFFFFF 1px;*/
     display: flex;
     flex-direction: row;
 /*    align-items: flex-start;*/
     text-align: left;
-    height: 88vh;
-    gap: 1em;
+/*    height: 88vh;*/
+    gap: 0;
     flex-wrap: wrap;
     transition: transform 0.3s ease;
     justify-content: space-between;
 }
 
-#center {
+#container-left {
     display: flex;
     justify-content: flex-start;  
     align-items: flex-start; 
     flex-wrap: wrap; 
+    width: 100%;
+}
+
+#container-right {
+    display: flex;
+    justify-content: flex-start;  
+    align-items: flex-start; 
+    flex-wrap: wrap; 
+    width: fit-content;
 }
 
 #container-about {
@@ -67,14 +77,14 @@ body {
 
 #sutton:hover {
     color: black;
-    transform: translateY(30vh);
+/*    transform: translateY(30vh);*/
     transition: transform 0.3s ease;
 /*    -webkit-text-stroke-width: 4px;
     -webkit-text-stroke-color: white;*/
 }
 
 #fritz {
-    font-size: 14vw;
+    font-size: 3vw;
     display: flex;
 /*    position: fixed;
     top: 0.2;
@@ -88,18 +98,15 @@ body {
     transition: transform 0.5s ease;
 }
 
+
+
+
 /*.prev {
     width: 100%;
     border-radius: 15px;
 }*/
 
-#fritz:hover {
-    color: black;
-    transform: translateY(30vh);
-    transition: transform 0.3s ease;
-/*    -webkit-text-stroke-width: 4px;
-    -webkit-text-stroke-color: white;*/
-}
+
 
 #container-list {
     overflow-y: auto;
