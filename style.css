@@ -11,7 +11,7 @@ body {
 }
 
 #container-main {
-    margin: 3em;
+/*    margin: 3em;*/
     font-family: Helvetica;
 /*    font-weight: lighter;*/
     color: white;
@@ -56,7 +56,7 @@ body {
 }
 
 #sutton {
-    font-size: 20em;
+    font-size: 22vw;
     display: flex;
 /*    position: fixed;
     top: 0.2;
