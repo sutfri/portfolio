@@ -21,33 +21,33 @@ body {
 
 #container-left {
     width: 65vw;
-    height: fit-content;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 #container-right {
-    width: 35vw;
+    width: fit-content;
     display: flex;
-/*    justify-content: flex-end;*/
-/*    align-items: flex-end;*/
+    justify-content: center;
+    align-items: center;
     font-size: 3vw;
     text-align: left;
     height: 100vh;
+/*    border: solid black 1px;*/
 }
 
 #container-top {
     font-size: 16vw;
-    display: flex;
+/*    display: flex;*/
 /*    height: fit-content;*/
 }
 
 #intro {
-    font-size: 2vw;
-    display: flex;
-    align-self: flex-end;
-    justify-self: flex-end;
+    rotate: 90deg;
+/*    border: solid black 1px;*/
+    width: fit-content;
 }
 
 #container-bottom {
@@ -57,8 +57,9 @@ body {
 /*    align-self: flex-end;*/
 /*    text-align: right;*/
     flex-direction: column;
+    justify-content: flex-end;
 /*    justify-content: space-between;*/
-/*    height: 30vh;*/
+    height: 30vh;
 
 /*    justify-content: space-evenly;*/
 }
@@ -72,7 +73,7 @@ body {
     justify-self: center;
 /*    gap: 1vw;*/
     width: 40vw;
-    margin-bottom: 3vw;
+/*    margin-bottom: 3vw;*/
 }
 
 .nav {
