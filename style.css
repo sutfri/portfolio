@@ -21,7 +21,7 @@ body {
 
 #container-left {
     width: 65vw;
-    height: 70vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -40,6 +40,7 @@ body {
 
 #container-top {
     font-size: 16vw;
+    height: 80vh;
 /*    display: flex;*/
 /*    height: fit-content;*/
 }
@@ -59,8 +60,8 @@ body {
     flex-direction: column;
     justify-content: flex-end;
 /*    justify-content: space-between;*/
-    height: 30vh;
-
+/*    height: 20vh;*/
+    border: solid black 1px;
 /*    justify-content: space-evenly;*/
 }
 
@@ -74,6 +75,7 @@ body {
 /*    gap: 1vw;*/
     width: 40vw;
 /*    margin-bottom: 3vw;*/
+        border: solid black 1px;
 }
 
 .nav {
@@ -82,6 +84,7 @@ body {
     text-decoration: none;
     color: black;
     display: inline-block;
+        border: solid black 1px;
     position: relative;
 }
 
