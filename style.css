@@ -21,23 +21,26 @@ body {
 
 #container-left {
     width: 65vw;
-    height: 100vh;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #container-right {
     width: 35vw;
     display: flex;
-    justify-content: flex-end;
-    font-size: 5vw;
-    text-align: right;
+/*    justify-content: flex-end;*/
+/*    align-items: flex-end;*/
+    font-size: 3vw;
+    text-align: left;
     height: 100vh;
 }
 
 #container-top {
     font-size: 16vw;
     display: flex;
-    flex-direction: row;
-    height: fit-content;
+/*    height: fit-content;*/
 }
 
 #intro {
@@ -51,10 +54,10 @@ body {
 /*    width: 100vw;*/
     font-size: 3vw;
     display: flex;
-    align-content: flex-end;
+/*    align-self: flex-end;*/
 /*    text-align: right;*/
     flex-direction: column;
-    justify-content: space-between;
+/*    justify-content: space-between;*/
 /*    height: 30vh;*/
 
 /*    justify-content: space-evenly;*/
@@ -69,6 +72,7 @@ body {
     justify-self: center;
 /*    gap: 1vw;*/
     width: 40vw;
+    margin-bottom: 3vw;
 }
 
 .nav {
