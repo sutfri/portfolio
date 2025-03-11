@@ -11,12 +11,26 @@ body {
     font-weight: lighter;
     color: black;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     text-align: left;
     height: fit-content;
     transition: transform 0.3s ease;
     justify-content: space-between;
     gap: 0;
+}
+
+#container-left {
+    width: 65vw;
+    height: 100vh;
+}
+
+#container-right {
+    width: 35vw;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 5vw;
+    text-align: right;
+    height: 100vh;
 }
 
 #container-top {
@@ -34,33 +48,40 @@ body {
 }
 
 #container-bottom {
-    width: 100vw;
+/*    width: 100vw;*/
     font-size: 3vw;
     display: flex;
-    align-self: flex-end;
-    text-align: right;
-    flex-direction: row;
+    align-content: flex-end;
+/*    text-align: right;*/
+    flex-direction: column;
     justify-content: space-between;
+/*    height: 30vh;*/
+
+/*    justify-content: space-evenly;*/
 }
 
 #container-nav {
     display: flex;
-    align-items: flex-end;
+/*    align-items: flex-end;*/
 /*    justify-self: flex-start;*/
     justify-content: space-between;
     flex-direction: row;
-    gap: 1vw;
-    width: 30vw;
+    justify-self: center;
+/*    gap: 1vw;*/
+    width: 40vw;
 }
 
 .nav {
     font-size: 2vw;
-    margin-left: 3vw;
+/*    margin-left: 3vw;*/
     text-decoration: none;
     color: black;
     display: inline-block;
     position: relative;
 }
+
+
+
 
 .nav::after {
   content: '';
